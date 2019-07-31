@@ -8,12 +8,12 @@ void main() {
 }
 
 void flyMain(Fly fly) {
-  fly.add('Wave #1', builder: (BuildContext context) {
+  fly.add('Wave #2', builder: (BuildContext context) {
     return Center(
       child: Wave(
         height: 200,
-        color: Color(0xff0000ff),
+        color: Color(0xff00ff00),
       ),
     );
-  });
+  }, ratio: 16 / 9);
 }
